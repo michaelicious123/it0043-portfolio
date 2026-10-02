@@ -63,3 +63,33 @@ p { max-width: 68ch; }
 
 img { max-width: 100%; height: auto; }
 
+/* 2. Spacing and layout */
+body > header,
+main,
+body > footer {
+  padding-inline: max(var(--space-4), calc((100% - var(--content-width)) / 2));
+}
+
+body > header {
+  padding-block: var(--space-4);
+}
+
+body > header > p {
+  margin: 0 0 var(--space-3);
+  font-size: var(--text-lg);
+  font-weight: 700;
+}
+
+main {
+  min-height: 65vh;
+  padding-block: var(--space-8) var(--space-12);
+}
+
+main > section {
+  margin-block: var(--space-8);
+}
+
+body > footer {
+  padding-block: var(--space-6);
+}
+
