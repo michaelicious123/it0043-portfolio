@@ -93,3 +93,53 @@ body > footer {
   padding-block: var(--space-6);
 }
 
+/* 3. Colour and content surfaces */
+body > header {
+  color: var(--color-surface);
+  background: var(--color-text);
+}
+
+body > footer {
+  color: var(--color-muted);
+  border-top: 1px solid var(--color-border);
+}
+
+a { color: var(--color-primary); }
+
+/* Reusable card component: add class="card" to an article or aside. */
+.card,
+main article {
+  padding: var(--space-6);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.card > :first-child,
+main article > :first-child { margin-top: 0; }
+
+.card > :last-child,
+main article > :last-child { margin-bottom: 0; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--color-surface);
+}
+
+caption {
+  margin-bottom: var(--space-2);
+  text-align: left;
+  font-weight: 700;
+}
+
+th,
+td {
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--color-border);
+  text-align: left;
+  vertical-align: top;
+}
+
+thead { background: #e8effb; }
+
