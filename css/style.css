@@ -2,12 +2,12 @@
 :root {
   --color-background: #f5f7fb;
   --color-surface: #ffffff;
-  --color-text: #18243a;
-  --color-muted: #526078;
-  --color-primary: #174c9c;
-  --color-primary-hover: #103b7d;
+  --color-text: #30552f;
+  --color-muted: #e2e2bc;
+  --color-primary: #37a740;
+  --color-primary-hover: #6de787;
   --color-border: #cbd5e1;
-  --color-focus: #b45309;
+  --color-focus: #f7ec5e;
 
   --space-1: 0.25rem;
   --space-2: 0.5rem;
